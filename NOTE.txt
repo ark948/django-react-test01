@@ -1,2 +1,18 @@
 Backend -> Django
 Frontend -> React
+(version 1 - no Docker, env vars stored in .env file)
+
+
+1. initalize django backend project
+> django-admin startproject backend
+> cd backend
+> python manage.py startapp api
+- add api app to INSTALLED_APPS in settings.py
+- add some imports to settings.py (#import01)
+- edit allowed_hosts and add "*" to it
+
+
+2. add some settings for django rest framework and jwt authentication to settings.py (#02)
+these include default authentication classes and permission classes for rest framework
+the other one is config for the lifetime of jwt tokens
+
