@@ -45,3 +45,6 @@ the other one is config for the lifetime of jwt tokens
 12. add Note views
 
 13. add a urls.py file to api app and include it in main urls.py file
+
+14. beginning frontend
+> 
