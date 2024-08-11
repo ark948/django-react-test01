@@ -21,3 +21,6 @@ the other one is config for the lifetime of jwt tokens
 
 4. add cors middleware to middlewares config var
 - and the required settings #03
+
+5. add serializers.py to api app
+- the user model serializer
