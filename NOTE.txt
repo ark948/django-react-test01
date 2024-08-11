@@ -24,3 +24,7 @@ the other one is config for the lifetime of jwt tokens
 
 5. add serializers.py to api app
 - the user model serializer
+
+6. add view to api app
+
+7. add some urls to main urls.py file
