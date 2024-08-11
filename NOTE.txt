@@ -7,7 +7,6 @@ Frontend -> React
 > django-admin startproject backend
 > cd backend
 > python manage.py startapp api
-- add api app to INSTALLED_APPS in settings.py
 - add some imports to settings.py (#import01)
 - edit allowed_hosts and add "*" to it
 
@@ -16,3 +15,9 @@ Frontend -> React
 these include default authentication classes and permission classes for rest framework
 the other one is config for the lifetime of jwt tokens
 
+3. add api app to INSTALLED_APPS
+- also rest framework
+- also cors headers
+
+4. add cors middleware to middlewares config var
+- and the required settings #03
