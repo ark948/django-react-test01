@@ -28,3 +28,11 @@ the other one is config for the lifetime of jwt tokens
 6. add view to api app
 
 7. add some urls to main urls.py file
+
+8. run server and go to localhost/api/user/register
+- and create a new user: bob, shit123*
+
+9. go to localhost/api/tokens
+- submit bob user credentials and get the tokens
+- copy the refresh token and go to localhost/api/token/refresh
+- post the code, it should return access code
