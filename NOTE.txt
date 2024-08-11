@@ -36,3 +36,6 @@ the other one is config for the lifetime of jwt tokens
 - submit bob user credentials and get the tokens
 - copy the refresh token and go to localhost/api/token/refresh
 - post the code, it should return access code
+
+10. add Note model to models.py in api app
+- add corresponding serializer
